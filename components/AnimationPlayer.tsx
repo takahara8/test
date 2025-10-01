@@ -29,7 +29,7 @@ interface AnimationConfig {
 }
 
 const DEFAULT_CONFIG: AnimationConfig = {
-  speed: 300, // ms per frame - 増加しました（120ms → 300ms）
+  speed: 120, // ms per frame
 };
 
 const dataURLtoBlob = (dataurl: string): Blob => {
