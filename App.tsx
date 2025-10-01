@@ -540,7 +540,7 @@ IMAGE OUTPUT REQUIREMENTS:
   };
 
   return (
-    <div className="h-dvh bg-black text-gray-100 flex flex-col items-center p-4 overflow-y-auto">
+    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-yellow-50 text-gray-800 flex flex-col items-center p-4 overflow-y-auto">
       <div className="w-full grow flex items-center [@media(max-height:750px)]:items-start justify-center">
         {renderContent()}
       </div>
